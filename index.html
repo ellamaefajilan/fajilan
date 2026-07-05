@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Ella Mae G. Fajilan — Information Technology Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="index.css" />
+</head>
+<body>
+
+<nav id="nav">
+  <div class="nav-inner">
+    <div class="brand">
+      <span class="monogram">EF</span>
+      <span class="brand-name">Ella Mae Fajilan</span>
+    </div>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#capstone">Capstone</a>
+      <a href="#work">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="nav-right">
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+      <svg class="ic-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      <svg class="ic-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.5 1.5M17.5 17.5L19 19M19 5l-1.5 1.5M6.5 17.5L5 19"/></svg>
+    </button>
+    <div class="status"><span class="dot"></span> Open to roles</div>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="7" x2="21" y2="7"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="17" x2="21" y2="17"/></svg>
+    </button>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div class="hero-text">
+        <span class="eyebrow mono"><span class="line"></span> Information Technology Graduate</span>
+        <h1>Ella Mae<br>G. <span class="accent">Fajilan</span></h1>
+        <div class="role">Software Developer <span>/</span> QA <span>/</span> UI&nbsp;&amp;&nbsp;UX</div>
+        <p class="lead">I build web, desktop, and mobile software — from computer-vision apps to academic systems — with a sharp eye for clean interfaces and reliable, well-tested code.</p>
+        <div class="cta-row">
+          <a href="#contact" class="btn btn-solid">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z"/><path d="m4 6 8 6 8-6"/></svg>
+            Get in touch
+          </a>
+          <a href="#capstone" class="btn btn-ghost">
+            View work
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="photo-stage">
+        <div class="photo-frame frame scanning" id="heroPhoto">
+          <span class="conf-tag">person · 0.99</span>
+          <img src="profile.png" alt="Ella Mae G. Fajilan" />
+          <div class="scanline"></div>
+          <span class="corner tl"></span><span class="corner tr"></span>
+          <span class="corner bl"></span><span class="corner br"></span>
+        </div>
+        <span class="float-tag t1">95% ACCURACY</span>
+        <span class="float-tag t2">&lt;100MS</span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="stats">
+  <div class="wrap">
+    <div class="stats-grid">
+      <div class="stat reveal"><div class="num"><span data-count="99">0</span><span class="unit">%</span></div><div class="label">Reliable and cuteness overload</div></div>
+      <div class="stat reveal"><div class="num"><span data-count="10">0</span><span class="unit">+</span></div><div class="label">Projects finished</div></div>
+      <div class="stat reveal"><div class="num"><span data-count="8">0</span></div><div class="label">Semesters Dean's List</div></div>
+      <div class="stat reveal"><div class="num"><span data-count="5">0</span><span class="unit">+</span></div><div class="label">Languages &amp; stacks</div></div>
+    </div>
+  </div>
+</div>
+
+<section id="about">
+  <div class="wrap">
+    <div class="about-grid">
+      <div class="reveal">
+        <div class="sec-tag mono"><span class="idx">01</span> / About</div>
+        <div class="sec-head" style="margin-bottom:32px;">
+          <h2>Curious by default, precise by habit.</h2>
+        </div>
+        <div class="body-copy">
+          <p>I'm an Information Technology graduate from the University of Antique, looking for an entry-level role in software development, quality assurance, UI/UX design, or IT support.</p>
+          <p class="muted">My work spans full-stack web apps, desktop tools, and mobile development — including a YOLOv11 computer-vision capstone. I care about technical detail, clean problem-solving, and shipping things that actually hold up. I'm always learning the next thing.</p>
+        </div>
+      </div>
+      <div class="reveal">
+        <div class="honors">
+          <div class="honor-row">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M8 21h8"/><path d="M12 17v4"/><path d="M7 4h10v5a5 5 0 0 1-10 0z"/><path d="M5 5H3v2a3 3 0 0 0 3 3"/><path d="M19 5h2v2a3 3 0 0 1-3 3"/></svg>
+            <div><div class="h-text">Dean's List — 8 consecutive semesters</div><div class="h-sub">University of Antique</div></div>
+          </div>
+          <div class="honor-row">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="m8 6-6 6 6 6"/><path d="m16 6 6 6-6 6"/></svg>
+            <div><div class="h-text">Programmer of the Year</div><div class="h-sub">Award</div></div>
+          </div>
+          <div class="honor-row">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M9 13h6M9 17h4"/></svg>
+            <div><div class="h-text">Best Research Paper</div><div class="h-sub">Research award</div></div>
+          </div>
+          <div class="honor-row">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="4" width="18" height="12" rx="1"/><path d="M12 16v4M8 20h8M8 9l3 3 4-5"/></svg>
+            <div><div class="h-text">Best Paper Presenter</div><div class="h-sub">Research award</div></div>
+          </div>
+          <div class="honor-row">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3v18"/><path d="M5 8a7 7 0 0 1 14 0"/><rect x="9" y="14" width="6" height="7" rx="1"/></svg>
+            <div><div class="h-text">Best in Oral Presentation</div><div class="h-sub">Recognition</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="skills-section">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="sec-tag mono"><span class="idx">02</span> / Toolkit</div>
+      <h2>Skills &amp; technologies</h2>
+      <p>The stack I reach for across development, testing, and design work.</p>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-card frame reveal">
+        <span class="corner tl"></span><span class="corner br"></span>
+        <div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="m8 6-6 6 6 6"/><path d="m16 6 6 6-6 6"/></svg></div>
+        <h3>Languages</h3>
+        <div class="chips"><span class="chip">Python</span><span class="chip">Java</span><span class="chip">JavaScript</span><span class="chip">PHP</span></div>
+      </div>
+      <div class="skill-card frame reveal">
+        <span class="corner tl"></span><span class="corner br"></span>
+        <div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 5-3.5 7.5-8.5 9C7.5 19.5 4 17 4 12V6l8.5-3L21 6z"/></svg></div>
+        <h3>Software Testing &amp; QA</h3>
+        <div class="chips"><span class="chip">Manual Testing</span><span class="chip">Test Cases</span><span class="chip">Bug Reporting</span></div>
+      </div>
+      <div class="skill-card frame reveal">
+        <span class="corner tl"></span><span class="corner br"></span>
+        <div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="M2 2l7.586 7.586"/><circle cx="11" cy="11" r="2"/></svg></div>
+        <h3>Design Tools</h3>
+        <div class="chips"><span class="chip">Figma</span><span class="chip">Adobe XD</span><span class="chip">Canva</span><span class="chip">Photoshop</span></div>
+      </div>
+      <div class="skill-card frame reveal">
+        <span class="corner tl"></span><span class="corner br"></span>
+        <div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v6c0 1.7 3.6 3 8 3s8-1.3 8-3V5"/><path d="M4 11v6c0 1.7 3.6 3 8 3s8-1.3 8-3v-6"/></svg></div>
+        <h3>Databases</h3>
+        <div class="chips"><span class="chip">MySQL</span><span class="chip">Firebase</span></div>
+      </div>
+      <div class="skill-card frame reveal">
+        <span class="corner tl"></span><span class="corner br"></span>
+        <div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="14" rx="2"/><path d="M8 21h8"/><path d="M12 17v4"/><path d="m7 8 2 2-2 2"/><path d="M12 12h4"/></svg></div>
+        <h3>Tools &amp; IDEs</h3>
+        <div class="chips"><span class="chip">Git</span><span class="chip">GitHub</span><span class="chip">VS Code</span><span class="chip">Android Studio</span><span class="chip">PyCharm</span></div>
+      </div>
+      <div class="skill-card frame reveal">
+        <span class="corner tl"></span><span class="corner br"></span>
+        <div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18"/><path d="M9 9v11"/><path d="M12 13h6M12 16.5h6"/></svg></div>
+        <h3>Office &amp; Productivity</h3>
+        <div class="chips"><span class="chip">Microsoft Word</span><span class="chip">Excel</span><span class="chip">PowerPoint</span><span class="chip">Google Docs</span><span class="chip">Sheets</span><span class="chip">Drive</span><span class="chip">Calendar</span><span class="chip">Data Entry</span><span class="chip">Internet Research</span></div>
+      </div>
+      <div class="skill-card frame reveal">
+        <span class="corner tl"></span><span class="corner br"></span>
+        <div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 11.5a8.5 8.5 0 0 1-8.5 8.5c-1.2 0-2.4-.25-3.4-.7L3 21l1.7-5.1A8.5 8.5 0 1 1 21 11.5z"/><path d="M8 10h8M8 13.5h5"/></svg></div>
+        <h3>Communication &amp; Support</h3>
+        <div class="chips"><span class="chip">Written &amp; Verbal Communication</span><span class="chip">Active Listening</span><span class="chip">Customer Support</span><span class="chip">Team Player</span></div>
+      </div>
+      <div class="skill-card frame reveal">
+        <span class="corner tl"></span><span class="corner br"></span>
+        <div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M19 5l-2 2M7 17l-2 2"/></svg></div>
+        <h3>Professional Skills</h3>
+        <div class="chips"><span class="chip">Problem-Solving</span><span class="chip">Critical Thinking</span><span class="chip">Time Management</span><span class="chip">Multitasking</span><span class="chip">Attention to Detail</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="capstone" class="feature">
+  <div class="wrap">
+    <div class="sec-head reveal" style="max-width:none;">
+      <div class="sec-tag mono"><span class="idx">03</span> / Capstone Project</div>
+      <h2>Featured work</h2>
+    </div>
+    <div class="feature-grid">
+      <div class="feature-media frame reveal" id="featMedia">
+        <span class="conf-tag">fingerling · 0.95</span>
+        <div class="fm-slides" id="fmSlides">
+          <img class="fm-slide is-active" src="fryscale-screenshot1.png" alt="FryScales — welcome screen" />
+          <img class="fm-slide" src="fryscale-screenshot2.png" alt="FryScales — screen 2" />
+          <img class="fm-slide" src="fryscale-screenshot3.png" alt="FryScales — screen 3" />
+          <img class="fm-slide" src="fryscale-screenshot4.png" alt="FryScales — screen 4" />
+          <img class="fm-slide" src="fryscale-screenshot5.png" alt="FryScales — screen 5" />
+        </div>
+        <button class="fm-nav fm-prev fm-hidden" id="fmPrev" aria-label="Previous screen">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 6l-6 6 6 6"/></svg>
+        </button>
+        <button class="fm-nav fm-next fm-hidden" id="fmNext" aria-label="Next screen">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 6l6 6-6 6"/></svg>
+        </button>
+        <span class="fm-count mono fm-hidden" id="fmCount"></span>
+        <div class="scanline"></div>
+        <span class="corner tl"></span><span class="corner tr"></span>
+        <span class="corner bl"></span><span class="corner br"></span>
+      </div>
+      <div class="feature-info reveal">
+        <h3>Mobile-Based Automated Fish Fingerling Counting using YOLOv11</h3>
+        <p>A mobile app that detects and counts fish fingerlings from a single image using a YOLOv11 object-detection model — replacing slow, error-prone manual counting in aquaculture.</p>
+        <div class="mini-stats">
+          <div class="mini-stat"><div class="v">95%</div><div class="k">Counting accuracy</div></div>
+          <div class="mini-stat"><div class="v">&lt;100ms</div><div class="k">Per-image inference</div></div>
+          <div class="mini-stat"><div class="v">YOLOv11</div><div class="k">Detection model</div></div>
+        </div>
+        <div class="stack-row">
+          <span class="chip">Java</span><span class="chip">XML</span><span class="chip">Google Cloud</span><span class="chip">Google Colab</span><span class="chip">TFLite</span><span class="chip">Firebase</span><span class="chip">YOLOv11</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="work">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="sec-tag mono"><span class="idx">04</span> / Selected Projects</div>
+      <h2>Things I've built</h2>
+      <p>Desktop and web systems where the goal was to make a real workflow faster and cleaner.</p>
+    </div>
+    <div class="proj-grid">
+      <div class="proj-card frame reveal">
+        <div class="proj-media">
+          <span class="conf-tag">face · 0.97</span>
+          <img src="face-recognition.png" alt="face-recognition" />
+          <div class="scanline"></div>
+        </div>
+        <div class="proj-body">
+          <span class="kind">Desktop Application</span>
+          <h3>Class Attendance Face Recognition System</h3>
+          <p>A face-recognition attendance tool that automates student attendance recording, removing manual roll-call entirely.</p>
+          <div class="stack-row"><span class="chip">Python</span><span class="chip">OpenCV</span><span class="chip">Tkinter</span><span class="chip">SQLite</span><span class="chip">Pillow</span></div>
+        </div>
+        <span class="corner tl"></span><span class="corner br"></span>
+      </div>
+
+      <div class="proj-card frame reveal">
+        <div class="proj-media">
+          <span class="conf-tag">archive · 0.96</span>
+          <img src="repository.png" alt="repository" />
+          <div class="scanline"></div>
+        </div>
+        <div class="proj-body">
+          <span class="kind">Web Application</span>
+          <h3>CCIS Capstone &amp; Thesis Repository</h3>
+          <p>A centralized academic research platform for submitting, organizing, and retrieving capstone and thesis papers for the College of Computing and Information Sciences.</p>
+          <div class="stack-row"><span class="chip">Laravel</span><span class="chip">PHP</span><span class="chip">JavaScript</span><span class="chip">CSS</span></div>
+        </div>
+        <span class="corner tl"></span><span class="corner br"></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="experience" class="exp-section">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="sec-tag mono"><span class="idx">05</span> / Experience</div>
+      <h2>Where I've worked</h2>
+    </div>
+    <div class="timeline">
+      <div class="exp-item reveal">
+        <div class="exp-meta">2025 — 2026</div>
+        <h3>Freelance System Developer</h3>
+        <div class="org">Self-Employed</div>
+        <ul>
+          <li>Designed and built web, desktop, and mobile applications around client requirements.</li>
+          <li>Delivered custom software systems end to end, from scoping to deployment.</li>
+        </ul>
+      </div>
+      <div class="exp-item reveal">
+        <div class="exp-meta">Feb 2026 — Apr 2026 · Parañaque City</div>
+        <h3>On-the-Job Trainee</h3>
+        <div class="org">Lexiewood Enterprises</div>
+        <ul>
+          <li>Managed the company's social media accounts, creating and publishing content to grow online presence and engagement.</li>
+          <li>Coordinated with clients on project requirements, design specifications, and order updates.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="education">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="sec-tag mono"><span class="idx">06</span> / Education</div>
+      <h2>Academic background</h2>
+    </div>
+    <div class="edu-grid">
+      <div class="edu-card primary reveal">
+        <div class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="m22 10-10-5L2 10l10 5 10-5z"/><path d="M6 12v5c0 1 3 3 6 3s6-2 6-3v-5"/></svg></div>
+        <h3>University of Antique</h3>
+        <div class="place">Tibiao, Antique</div>
+        <div class="deg">BS Information Technology</div>
+        <div class="note">Coursework: Programming, UI/UX, Mobile Development, Machine Learning, Web Development, Artificial Intelligence, Computer Hardware &amp; Troubleshooting.</div>
+      </div>
+      <div class="edu-card reveal">
+        <div class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 9 12 4l9 5-9 5z"/><path d="M3 9v6l9 5 9-5V9"/></svg></div>
+        <h3>Tario-Lim Memorial National HS</h3>
+        <div class="place">Tibiao, Antique</div>
+        <div class="deg">Senior High School</div>
+        <div class="note">Academic Excellence Awardee — With Honors.</div>
+      </div>
+      <div class="edu-card reveal">
+        <div class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></div>
+        <h3>Siena College</h3>
+        <div class="place">Quezon City</div>
+        <div class="deg">High School</div>
+        <div class="note">Completed TechnoEssentials &amp; TechnoPhotoshop computer curricula.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="gallery" class="gallery-section">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="sec-tag mono"><span class="idx">07</span> / Gallery</div>
+      <h2>Moments &amp; milestones</h2>
+      <p>A rolling look at the work, events, and highlights along the way.</p>
+    </div>
+  </div>
+  <div class="gallery reveal" id="galleryViewport">
+    <button class="gal-nav gal-prev" id="galPrev" aria-label="Scroll gallery left">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 6l-6 6 6 6"/></svg>
+    </button>
+    <div class="gallery-track" id="galleryTrack"></div>
+    <button class="gal-nav gal-next" id="galNext" aria-label="Scroll gallery right">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 6l6 6-6 6"/></svg>
+    </button>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="wrap">
+    <div class="contact-inner">
+      <div class="sec-tag mono reveal"><span class="idx">08</span> / Contact</div>
+      <h2 class="reveal">Let's build something<br><span class="accent">worth shipping.</span></h2>
+      <p class="lead reveal">I'm open to entry-level roles in software development, QA, UI/UX, and IT support. Reach out — I'd love to talk.</p>
+      <div class="contact-cards reveal">
+        <a href="mailto:ellamaefajilan@gmail.com" class="c-card">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+          <div><div class="k">Email</div><div class="v">ellamaefajilan@gmail.com</div></div>
+        </a>
+        <a href="tel:09623454221" class="c-card">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L20 13l1 4v2a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg>
+          <div><div class="k">Phone</div><div class="v">0962 345 4221</div></div>
+        </a>
+        <a href="https://linkedin.com/in/ella-mae-fajilan-80a59a296" target="_blank" rel="noopener" class="c-card">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="3"/><path d="M7 10v7M7 7v.01M11 17v-4a2 2 0 0 1 4 0v4M11 13v4"/></svg>
+          <div><div class="k">LinkedIn</div><div class="v">ella-mae-fajilan</div></div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-inner">
+      <span class="mono">© 2026 Ella Mae G. Fajilan</span>
+      <span class="mono">Designed &amp; built with care</span>
+    </div>
+  </div>
+</footer>
+
+<div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-label="Image viewer">
+  <button class="lb-btn lb-close" id="lbClose" aria-label="Close">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6L6 18"/></svg>
+  </button>
+  <button class="lb-btn lb-nav lb-prev" id="lbPrev" aria-label="Previous image">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 6l-6 6 6 6"/></svg>
+  </button>
+  <div class="lb-stage frame">
+    <img id="lbImg" src="" alt="Gallery image" />
+    <div class="lb-missing mono" id="lbMissing">Image not available</div>
+    <span class="corner tl"></span><span class="corner tr"></span>
+    <span class="corner bl"></span><span class="corner br"></span>
+    <span class="lb-count mono" id="lbCount"></span>
+  </div>
+  <button class="lb-btn lb-nav lb-next" id="lbNext" aria-label="Next image">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 6l6 6-6 6"/></svg>
+  </button>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
